@@ -1,8 +1,14 @@
-int(a),int(b) = input().split()
+a,b = input().split()
 
-while gcd:
-	gcd = a%b
+a=int(a)
+b=int(b)
+
+gcd=a%b
+
+while a%b != 0:
 	a=b
 	b=gcd
+	print("%s %% %s = %s" % (a,b,a%b))
+	gcd = a%b
 
 print(gcd)
