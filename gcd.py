@@ -1,4 +1,4 @@
-a,b = int(input().split())
+int(a),int(b) = input().split()
 
 while gcd:
 	gcd = a%b
